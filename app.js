@@ -241,8 +241,8 @@ if (son2 > 99 && son2 % 2 == 1) {
 // Boolean12. Jumlani rostlikka tekshiring: "Berilgan uchta butun sonlarning hech bo'lmaganda bir jufti o'zaro qarama-qarshi".
 const Son = 121;
 const Son1 = 55;
-const Son2 = 45;
-if (Son == -Son1 && Son == -Son2 && Son1 == -Son2) {
+const Son2 = -55;
+if (Son + Son1 == 0 || Son + Son2 == 0 || Son2 + Son1 == 0) {
   console.log("True");
 } else {
   console.log("False");
